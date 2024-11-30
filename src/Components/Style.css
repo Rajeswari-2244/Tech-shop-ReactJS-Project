@@ -1,0 +1,51 @@
+#boat{
+    background-image: url('../Components/images2/boat131-3.png');
+    width:500px;
+    height:500px;
+    background-repeat:no-repeat;
+    /* background-color: black; */
+    /* background-position: center; */
+    background-size:contain;
+    background-position:top;
+    background: cover;
+    /* margin-left: 300px; */
+    margin-left: 865px;
+    margin-top: 47px;
+    
+   
+}
+
+#sony{
+    background-image: url('../Components/images2/sonyXb910n-1.png');
+    width:500px;
+    height:500px;
+    background-repeat:no-repeat;
+    /* background-color: black; */
+    /* background-position: center; */
+    background-size:contain;
+    background-position:top;
+    background: cover;
+    margin-left: 865px;
+    margin-top: 47px;
+   
+    
+}
+#jbl{
+    background-image: url('../Components/images2/jbl500bt-2.png');
+    width:500px;
+    height:500px;
+    background-repeat:no-repeat;
+    /* background-color: black; */
+    /* background-position: center; */
+    background-size:contain;
+    background-position:top;
+    background: cover;
+    margin-left: 865px;
+    margin-top: 47px;
+  
+    
+}
+#details{
+   margin-top:-354px;
+   margin-left:190px
+}
