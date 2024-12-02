@@ -50,11 +50,11 @@ const filterItems=(cat)=>{
                         
                 ))
             }
-             <Link to="/browse">
+             <Link to="/browse" style={{textDecoration:'none'}}>
              <div class="card bg-dark border-light"  style={{width: '23rem'}}>
  
-<div class="card-body d-flex align-items-center justify-content-center">
-   <h5 class="card-title bg-dark text-light fs-3">Browse All <br /> Products<IoMdArrowForward /></h5>
+<div class="card-body d-flex align-items-center justify-content-center" >
+   <h5 class="card-title bg-dark text-light fs-3 " >Browse All <br /> Products<IoMdArrowForward /></h5>
    {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
    
  </div>

@@ -6,14 +6,14 @@ import Header from './Header'
 import Footer from './Footer'
 const BrowseProducts = () => {
   return (
-    <div>
+    <>
         <Header/>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-2'></div>
                 <div className='col-lg-8'>
-                    <div className='row '>
-                        <div className='col-lg-4 'style={{display:'flex',gap:'5px' ,flexWrap:'wrap'}} >
+                    {/* <div className='row '> */}
+                        {/* <div className='col-lg-4 'style={{display:'flex',gap:'5px' ,flexWrap:'wrap'}} > */}
                             {
                                 productsData.map((ele)=>(
                                      
@@ -41,13 +41,14 @@ const BrowseProducts = () => {
                     
                                 ))
                             }
-                            </div> </div>
+                            {/* </div>  */}
+                            {/* </div> */}
 
                 </div>
             </div>
         </div>
         <Footer/>
-    </div>
+    </>
   )
 }
 
