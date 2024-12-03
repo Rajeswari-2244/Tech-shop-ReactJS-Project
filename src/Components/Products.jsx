@@ -11,6 +11,11 @@ const Products = () => {
 const filterItems=(cat)=>{
     const newItems=Data.filter((newVal)=>newVal.category===cat)
     setItems(newItems)
+
+}
+
+const handleadd=()=>{
+
 }
     
   return (
@@ -40,7 +45,7 @@ const filterItems=(cat)=>{
                             <div><MdCurrencyRupee />{val.finalPrice}</div>
                             <div><s><MdCurrencyRupee />{val.originalPrice}</s></div>
                         </div>
-                        <div><Link to='/addtocart'><button className='btn btn-danger w-100'>Add to Cart</button></Link></div>
+                        <div onClick={()=>{handleadd()}}><Link to='/addtocart'><button className='btn btn-danger w-100'>Add to Cart</button></Link></div>
                                                          
                            
                             
