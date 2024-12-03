@@ -84,7 +84,7 @@ console.log(details)
             <p className=' border p-1  m-2' style={{width:'450px'}}>No Cost EMI on Credit Card</p>
             <p className=' border p-1 m-2'style={{width:'450px'}}>Pay Later & Avail Cashback</p>
           </div>
-          <button className='btn btn-danger mt-5 w-50' >Add to cart</button>
+          <button className='btn btn-danger mt-5 w-50' >Add to cart</b
         </div>
       </div>
       </div>
