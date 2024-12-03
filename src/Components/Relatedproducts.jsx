@@ -85,7 +85,7 @@ const Relatedproducts = ({Data,category}) => {
              
 
               <SwiperSlide>
-                <div className='container py-5'>
+                <div className='container py-5' style={{margin:'10px'}}>
                 <div key={ele.id} className=' card bg-dark border-light text-light'style={{width:'370px'}} >
                       
                         <div className='card-img-top ' >
