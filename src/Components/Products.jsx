@@ -5,7 +5,10 @@ import Buttons from './Buttons'
 import { MdCurrencyRupee } from 'react-icons/md'
 import { IoMdArrowForward } from 'react-icons/io'
 import { Link } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
+
 const Products = () => {
+    const dispatch =useDispatch()
     const [item,setItems]=useState(Data)
     const menuItems=[...new Set(Data.map((val)=>val.category))]
 const filterItems=(cat)=>{
@@ -14,7 +17,8 @@ const filterItems=(cat)=>{
 
 }
 
-const handleadd=()=>{
+const handleadd=(list)=>{
+    dispatch(list)
 
 }
     
@@ -45,7 +49,7 @@ const handleadd=()=>{
                             <div><MdCurrencyRupee />{val.finalPrice}</div>
                             <div><s><MdCurrencyRupee />{val.originalPrice}</s></div>
                         </div>
-                        <div onClick={()=>{handleadd()}}><Link to='/addtocart'><button className='btn btn-danger w-100'>Add to Cart</button></Link></div>
+                        <div onClick={()=>{handleadd(val)}}><Link to='/addtocart'><button className='btn btn-danger w-100'>Add to Cart</button></Link></div>
                                                          
                            
                             
