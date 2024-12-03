@@ -20,7 +20,7 @@ const Card = ({item}) => {
                             <div><MdCurrencyRupee />{val.finalPrice}</div>
                             <div><s><MdCurrencyRupee />{val.originalPrice}</s></div>
                         </div>
-                        <div><button className='btn btn-danger w-100'>Add to Cart</button></div>
+                        <div><button className='btn btn-danger w-100'>Add to cart</button></div>
                                                          
                            
                             
